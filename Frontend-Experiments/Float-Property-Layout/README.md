@@ -7,8 +7,8 @@
 
 
 ## Technologies Used
-HTML5
-CSS3 (with a focus on using the float property)
+1. HTML5
+2. CSS3 (with a focus on using the float property)
 
 
 ## Project Highlights
@@ -24,9 +24,11 @@ CSS3 (with a focus on using the float property)
 
 
 ## Next Steps
-1. I will focused on writing clean, readable, and maintainable code.
+1. I will focused on writing clean, well-structured, and maintainable code in future projects.
 2. Explore and implement more modern layout techniques using Flexbox and CSS Grid.
 3. Continue building and refining more web pages as part of my learning process.
+4. Learn and apply CSS animations to enhance the user experience.
+5. Implement media queries to make the layout responsive and adaptable to different devices.
 
 
 ## How to View
