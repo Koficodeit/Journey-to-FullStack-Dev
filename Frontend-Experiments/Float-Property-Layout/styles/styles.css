@@ -1,0 +1,337 @@
+/* ==================== UNIVERSAL STYLE ==================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 100%; */
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    /* font-size: 100%; */
+    font-family: dm sans, sans-serif;
+    line-height: 1.5;
+    color: #0a0a0a;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #f0f8ff;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+p {
+    color: #cecdcd;
+    font-size: 1rem;
+}
+
+.darkBrown {
+    color: #634203;
+}
+
+.lightBrown {
+    color: #ac7105;
+}
+
+.paragraph {
+    color: #1b1b1b;
+}
+
+
+
+
+
+/* ==================== HEADER ==================== */
+
+header {
+    background: linear-gradient(hwb(0 0% 100% / 0.55), rgba(0, 0, 0, 0.55)), url('../Images/bgImage.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 1%;
+}
+
+header h1.logo, header nav ul, header nav span {
+    display: inline-block;
+}
+
+/* --- navigation menu --- */
+
+nav {
+    background: whitesmoke;
+    margin: 0 auto;
+    width: 85%;
+    padding: 0 20px;
+    border-radius: 25px;
+}
+
+nav .navbar {
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    text-align: center;
+    margin-bottom: -13px;
+    padding: 10px 20px;    
+    color: #0a0a0a;
+}
+
+h1.logo {
+    padding-right: 26%;
+    color: #3b2600;
+    margin-bottom: 6px;
+    font-size: 1.25rem;
+}
+
+.contactUs {
+    float: right;
+}
+
+.contactUs input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    background: #5b3c02;
+    border: none;
+    color: #f0f8ff;
+    margin-top: 3px;
+}
+
+.banner {
+    clear: both;
+}
+
+/* --- banner section --- */
+
+section.banner {
+    position: relative;
+    top: 27%;
+    text-align: center;
+}
+
+section.banner h1 {
+    padding: 0 28%;
+}
+
+section.banner p {
+    padding: 0 33%;
+    margin-bottom: 50px;
+}
+
+span.explore a {
+    padding: 10px 20px;
+    background: #5b3c02;
+    border-radius: 20px;
+}
+
+
+
+
+
+/* ==================== CATEGORY ==================== */
+
+article.categories {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+article.categories section {
+    float: left;
+    width: 49%;
+}
+
+article.categories h2 {
+    font-size: 1.57rem;
+    letter-spacing: 1.4px;
+    margin-top: 24px;
+}
+
+article.categories p {
+    line-height: 1.3;
+}
+
+.imageCategories {
+    clear: both;
+}
+
+section.imageCategories {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+section.imageCategories figure {
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+}
+
+section.imageCategories figure img {
+    width: 100%;
+    height: 300px;
+    box-shadow: 2px 2px 3px gray;
+}
+
+section.imageCategories figure:last-child {
+    width: 25%;
+    margin: 0;
+}
+
+
+
+
+
+/* ==================== SERVICE ==================== */
+
+section.service {
+    overflow: hidden;
+    margin: 60px auto;
+    width: 85%;
+}
+
+section.service aside {
+    float: left;
+    width: 25%;
+    text-align: left;
+}
+
+
+
+
+
+/* ==================== ABOUT US ==================== */
+
+section.aboutUs {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 85%;
+}
+
+section.aboutUs  .float-left {
+    float: left;
+    width: 48%;
+}
+
+section.aboutUs figure {
+    margin-right: 4%;
+}
+
+section.aboutUs figure img {
+    width: 100%;
+}
+
+section.aboutUs section {
+    padding-top: 40px;
+}
+
+section.float-left p {
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/* ==================== GALLERY ==================== */
+
+section.gallery {
+    overflow: hidden;
+    margin: 60px auto;
+    width: 85%;
+}
+
+section.gallery .gallery-float {
+    float: left;
+    width: 50%;
+}
+
+section.gallery h2 {
+    font-size: 1.57rem;
+    letter-spacing: 1.4px;
+    margin-top: 10px;
+}
+
+
+/* ----- Image ----- */
+
+.galleryImage {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.galleryImage figure {
+    float: left;
+    width: 32%;
+    margin-left: 2%;
+}
+
+.galleryImage img {
+    display: block;
+    width: 100%;
+}
+
+.galleryImage figure:first-child {
+    margin: 0;
+    height: 800px;
+}
+
+.galleryImage figure:first-child, .galleryImage figure:last-child {
+    height: 477px;
+}
+
+.galleryImage figure:first-child img, .galleryImage figure:last-child img {
+    height: 477px;
+}
+
+img[src="Images/gallery (3).jpg"] {
+    margin-top: 20px;
+}
+
+
+
+
+
+/* ==================== CATEGORY ==================== */
+
+footer {
+    background-color: #3b2600;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 60px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+footer ul li a {
+    color: #f0f8ff;
+}
