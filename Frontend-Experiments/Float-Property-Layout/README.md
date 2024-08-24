@@ -26,9 +26,9 @@
 ## Next Steps
 1. I will focused on writing clean, well-structured, and maintainable code in future projects.
 2. Explore and implement more modern layout techniques using Flexbox and CSS Grid.
-3. Continue building and refining more web pages as part of my learning process.
-4. Learn and apply CSS animations to enhance the user experience.
-5. Implement media queries to make the layout responsive and adaptable to different devices.
+3. Learn and apply CSS animations to enhance the user experience.
+4. Implement media queries to make the layout responsive and adaptable to different devices.
+5. Continue building and refining more web pages as part of my learning process.
 
 
 ## How to View
