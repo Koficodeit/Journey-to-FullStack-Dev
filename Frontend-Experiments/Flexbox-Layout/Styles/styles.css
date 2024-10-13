@@ -43,12 +43,10 @@ main {
 
 header {
     background: linear-gradient(hsla(0, 0%, 0%, 0.3), rgba(0, 0, 0, 0.3)), url('../Images/3.jpg');
-    /* width: 100vw; */
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* position: fixed; */
     text-align: center;
 }
 
@@ -196,7 +194,3 @@ footer li a {
     border-left: 2px solid white;
     width: 50%;
 }
-
-/* .social a {
-    display: inline;
-} */
