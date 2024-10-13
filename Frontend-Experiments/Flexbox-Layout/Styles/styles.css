@@ -1,0 +1,202 @@
+/* ===================================
+        UNIVERSAL STYLE
+=================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+main {
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+
+
+
+
+/* ===================================
+        HEADER STYLE
+=================================== */
+
+header {
+    background: linear-gradient(hsla(0, 0%, 0%, 0.3), rgba(0, 0, 0, 0.3)), url('../Images/3.jpg');
+    /* width: 100vw; */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    text-align: center;
+}
+
+/* -- Nav Menu -- */
+
+nav {
+    background: rgb(1, 45, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li a {
+    font-size: 1.25rem;
+}
+
+nav figure h1 {
+    font-size: 1.875rem;
+    padding-left: 20px;
+}
+
+/* -- Text Banner -- */
+
+.banner {
+    position: relative;
+    top: 35%;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+
+.banner p {
+    color: rgb(191, 190, 190);
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.banner h1, .banner p {
+    text-shadow: 2px 2px 3px black;
+}
+
+
+
+
+
+/* ===================================
+        MAIN STYLE
+=================================== */
+
+article {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+    color: black;
+    text-align: justify;
+    margin: 0 10px;
+    flex-wrap: wrap;
+}
+
+article.flexWrap section {
+    width: 48%;
+}
+
+article img {
+    width: 100%;
+}
+
+main h2 {
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 200px;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+main h4 {
+    padding: 20px 0;
+}
+
+main p {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 25px;
+    background: transparent;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(1, 45, 1);
+}
+
+.sourceCode {
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* ===================================
+        FOOTER STYLE
+=================================== */
+
+footer {
+    background: rgb(1, 45, 1);
+    padding: 30px 50px;
+}
+
+footer .footerFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer li a {
+    color: rgb(252, 247, 240);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 2px solid white;
+    width: 50%;
+}
+
+/* .social a {
+    display: inline;
+} */
