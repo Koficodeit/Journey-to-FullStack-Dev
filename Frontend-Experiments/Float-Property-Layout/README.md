@@ -11,8 +11,15 @@
 2. CSS3 (with a focus on using the float property)
 
 
-## Project Highlights
-1. Developed a basic webpage layout using the float property.
+## Project
+
+1. *Float Layout Project:*
+
+This project demonstrates my understanding of using the float property for multi-column layouts. While floats were traditionally used for web layout design, they come with some limitations when handling more complex or responsive designs.
+
+<Highlights:>
+
+1. Developed a basic webpage layout using the float property for positioning elements.
 2. Practiced structuring HTML content and applying CSS styles.
 3. Gained a deeper understanding of how floats affect the layout and how to clear them effectively.
 
