@@ -1,5 +1,5 @@
 
-# My First Webpage Layout Using Float
+# My First Webpage Layout Using Float Properties
 
 
 ## Overview
